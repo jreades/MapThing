@@ -22,6 +22,8 @@ public class Node implements Serializable {
 
 	private static final long serialVersionUID = -7750398192543108321L;
 	
+	public static boolean DEBUG = false;
+	
 	String name; 
 	int    id;
 	double val;

@@ -32,6 +32,8 @@ public class Polygons extends Generic implements Serializable {
 	
 	private static final long serialVersionUID = 8618803832866064725L;
 	
+	public static boolean DEBUG = false;
+	
 	ArrayList<Node[]> transformedCoordinates;
 	ArrayList<Coordinate[]> rawCoordinates;
 	

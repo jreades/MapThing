@@ -16,6 +16,8 @@ import java.io.Serializable;
 public class Link implements Serializable {
 	
 	private static final long serialVersionUID = -9062368678289290111L;
+	
+	public static boolean DEBUG = false;
 
 	int    id;
 	Node   node1;

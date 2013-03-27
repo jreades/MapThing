@@ -28,7 +28,7 @@ public class Points extends Generic implements Serializable {
 	
 	private static final long serialVersionUID = -802163096726427577L;
 	
-	private static final boolean DEBUG = false;
+	public static boolean DEBUG = false;
 	
 	ArrayList<Node> transformedCoordinates;
 	ArrayList<Coordinate> rawCoordinates;

@@ -29,7 +29,7 @@ public class Lines extends Generic implements Serializable {
 	
 	private static final long serialVersionUID = 1376311472836304996L;
 	
-	private static final boolean DEBUG = false;
+	public static boolean DEBUG = false;
 	
 	ArrayList<Node[]> transformedCoordinates;
 	ArrayList<Coordinate[]> rawCoordinates;

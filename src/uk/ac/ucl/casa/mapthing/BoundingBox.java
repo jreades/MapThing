@@ -29,6 +29,8 @@ public class BoundingBox implements Serializable {
 	public static final int osgb = 27700;
 	public static final int wgs  = 4326;
 	
+	public static boolean DEBUG = false;
+	
 	private int    projection;
 	private float  east;
 	private float  north;
