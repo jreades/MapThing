@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/8/trunk/src/net/divbyzero/gpx
+END
+Measurable.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/src/net/divbyzero/gpx/Measurable.java
+END
+Track.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/src/net/divbyzero/gpx/Track.java
+END
+TrackSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/src/net/divbyzero/gpx/TrackSegment.java
+END
+Coordinate.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/src/net/divbyzero/gpx/Coordinate.java
+END
+Waypoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/src/net/divbyzero/gpx/Waypoint.java
+END
+GPX.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/src/net/divbyzero/gpx/GPX.java
+END

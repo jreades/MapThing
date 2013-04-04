@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/5/trunk/src/net/divbyzero/gpx/parser
+END
+ParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/src/net/divbyzero/gpx/parser/ParsingException.java
+END
+JDOM.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/src/net/divbyzero/gpx/parser/JDOM.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/src/net/divbyzero/gpx/parser/Parser.java
+END
