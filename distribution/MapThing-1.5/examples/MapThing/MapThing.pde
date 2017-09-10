@@ -73,12 +73,14 @@ protected float   mDifY      = 0f;
 protected boolean mLocked    = false;
 protected boolean kLocked    = false;
 
+void settings() {
+  int d = 1200;
+  size(d, envelope.heightFromWidth(d));
+}
+
 void setup() {
 
-  colorMode(HSB,360,100,100);
-  
-  int d = 1200;
-  size(d,envelope.heightFromWidth(d));
+  colorMode(HSB,360,100,100);  
   
   transport = loadImage(dataPath("Airport.png"));
   
