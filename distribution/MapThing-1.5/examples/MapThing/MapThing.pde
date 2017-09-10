@@ -153,14 +153,6 @@ void setup() {
   labelFont = loadFont("Serif-16.vlw");
   textFont(labelFont);
   textSize(12);
-  
- // Needed to add a mouse wheel listener to the 
- // applet window.
-  addMouseWheelListener(new java.awt.event.MouseWheelListener() { 
-	public void mouseWheelMoved(java.awt.event.MouseWheelEvent evt) { 
-		mouseWheel(evt.getWheelRotation());
-	}
-  });
 }
 
 void draw() {
@@ -234,13 +226,14 @@ void draw() {
 /**
  * Uses mouse wheel movement (also works with 
  * MacBook-type track pads) to zoom in and out. 
- * @param delta: the movement of the mouse wheel
+ * @param event: Processing object 
  */
-void mouseWheel(int delta) {
-	scaleFactor += delta * mouseWheelMultiple;
-	if (scaleFactor <= minScaleFactor) {
-		scaleFactor = minScaleFactor;
-	}
+void mouseWheel(MouseEvent event) {
+  float e = event.getCount();
+  scaleFactor += e * mouseWheelMultiple;
+  if (scaleFactor <= minScaleFactor) {
+    scaleFactor = minScaleFactor;
+  }
 }
 
 /**
